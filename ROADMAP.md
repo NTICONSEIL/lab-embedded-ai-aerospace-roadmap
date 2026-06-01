@@ -1,9 +1,3 @@
-
----
-
-# ROADMAP.md
-
-```markdown
 # Embedded AI & Aerospace Systems Roadmap
 
 ## Goal
