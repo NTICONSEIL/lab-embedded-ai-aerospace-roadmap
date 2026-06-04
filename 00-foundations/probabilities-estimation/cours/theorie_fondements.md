@@ -20,8 +20,8 @@ Pour que le code ait du sens, il faut d'abord comprendre les idées qu'il met en
 
 Imaginons que vous cherchez à estimer la position d'un drone. Vous avez deux sources d'information :
 
-1. **Ce que vous croyez** avant de regarder le capteur — par exemple, vous savez que le drone était à 100 m il y a une seconde et avançait à 2 m/s. C'est votre **croyance a priori**.
-2. **Ce que le capteur vous dit** — le GPS lit 104 m. C'est la **mesure**.
+1. **Ce que vous croyez** avant de regarder le capteur, par exemple, vous savez que le drone était à 100 m il y a une seconde et avançait à 2 m/s. C'est votre **croyance a priori**.
+2. **Ce que le capteur vous dit** : le GPS lit 104 m. C'est la **mesure**.
 
 Le théorème de Bayes est la règle qui dit comment combiner ces deux sources pour former une **croyance mise à jour** (le **posterior**) :
 
@@ -34,7 +34,7 @@ Croyance après mesure  ∝  Vraisemblance de la mesure  ×  Croyance avant mesu
      (posterior)                  (likelihood)                  (prior)
 ```
 
-Le symbole $\propto$ signifie "proportionnel à" — on normalise ensuite pour que la probabilité totale vaille 1.
+Le symbole $\propto$ signifie "proportionnel à", on normalise ensuite pour que la probabilité totale vaille 1.
 
 ### Les trois termes expliqués
 
